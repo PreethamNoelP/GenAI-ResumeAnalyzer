@@ -245,4 +245,4 @@ For issues and questions:
 
 ---
 
-**Built with ❤️ using Streamlit and Google Gemini AI** 
+**Built using Streamlit and Google Gemini AI** 
