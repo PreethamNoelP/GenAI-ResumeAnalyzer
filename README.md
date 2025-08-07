@@ -2,7 +2,7 @@
 
 A powerful AI-powered resume analysis tool designed for processing large volumes of resumes (100+ files) with advanced batch processing capabilities, built with Streamlit and Google Gemini AI.
 
-## 🚀 Features
+## Features
 
 ### Core Capabilities
 - **Batch Processing**: Handle 100+ resumes simultaneously
@@ -20,7 +20,7 @@ A powerful AI-powered resume analysis tool designed for processing large volumes
 - **Memory Optimization**: Efficient resource management
 - **Temporary File Management**: Automatic cleanup of processing files
 
-## 📊 Analysis Capabilities
+## Analysis Capabilities
 
 The system extracts and analyzes:
 - **Personal Information**: Name, contact details, location
@@ -29,7 +29,7 @@ The system extracts and analyzes:
 - **Experience Scores**: AI/ML experience, Gen AI experience, overall experience
 - **Supporting Information**: Certifications, internships, projects, achievements
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -59,7 +59,7 @@ The system extracts and analyzes:
    python -m spacy download en_core_web_sm
    ```
 
-## 🚀 Usage
+## Usage
 
 ### Running the Application
 
@@ -105,7 +105,7 @@ The system extracts and analyzes:
    - Get insights about candidates and skills
    - Explore patterns and trends
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── main.py                 # Main application entry point
@@ -128,7 +128,7 @@ The system extracts and analyzes:
 └── temp_files/           # Temporary processing files
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 ### Environment Variables
 - `GEMINI_API_KEY`: Your Google Gemini API key
@@ -140,7 +140,7 @@ The system extracts and analyzes:
 - **File Size Limit**: Maximum file size in MB (default: 10MB)
 - **Supported Formats**: PDF and DOCX files
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 | Metric | Value |
 |--------|-------|
@@ -150,7 +150,7 @@ The system extracts and analyzes:
 | Supported Formats | PDF, DOCX |
 | Processing Speed | ~2-5 seconds per resume |
 
-## 🔧 Advanced Features
+## Advanced Features
 
 ### Batch Processing
 - Configurable batch sizes for optimal performance
@@ -169,7 +169,7 @@ The system extracts and analyzes:
 - Temporary file cleanup
 - Comprehensive error reporting
 
-## 🤖 AI Analysis Features
+## AI Analysis Features
 
 ### Extracted Information
 - **Personal Details**: Name, email, phone, location
@@ -184,7 +184,7 @@ The system extracts and analyzes:
 - **Overall Experience**: 1-10 scale for general technical experience
 - **Confidence Score**: Analysis quality assessment
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -219,11 +219,11 @@ The system extracts and analyzes:
    - Reduce rate limit delay (0.5-1 second)
    - Ensure stable internet connection
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -231,14 +231,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📞 Support
+## Support
 
 For issues and questions:
 - Create an issue in the GitHub repository
 - Check the troubleshooting section
 - Review the configuration settings
 
-## 🔄 Version History
+## Version History
 
 - **v2.0.0**: Enhanced batch processing, async operations, improved UI
 - **v1.0.0**: Initial release with basic functionality
